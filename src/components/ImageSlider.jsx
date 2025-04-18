@@ -10,7 +10,6 @@ const playwrite = localFont({
   variable: "--font-playwrite",
   display: "swap", // optional
 });
-
 const slidesBack = [
   { image: "/images/sketch1.png", title: "Become the bride you've always dreamed of being" },
   { image: "/images/sketch2.png", title: "Perfect moments with a perfect dress" },
@@ -20,7 +19,7 @@ const slidesBack = [
 
 const slidesFront = [
   { image: "/images/sketch1.png", title: "01" },
-  { image: "/images/sketch2.png", title: "02" },
+  { image:  "/images/sketch2.png", title: "02" },
   { image: "/images/sketch3.png", title: "03" },
   { image: "/images/sketch4.png", title: "04" },
 ];
@@ -42,13 +41,13 @@ export default function ImageSlider() {
         <motion.div
           key={slidesBack[index].title}
           className="slide-back"
-          initial={{ x: "100%" }}  
-          animate={{ x: 0 }}     
-          exit={{ x: "-100%" }}  
+          initial={{ x: "100%" }}
+          animate={{ x: 0 }}
+          exit={{ x: "-100%" }}
           transition={{
-            duration: 2,         
-            ease: "easeInOut",   
-            delay: 1,             
+            duration: 2,
+            ease: "easeInOut",
+            delay: 1,
           }}
         >
           <motion.h2
@@ -71,15 +70,15 @@ export default function ImageSlider() {
 
       <AnimatePresence>
         <motion.div
-          key={slidesFront[index].title} 
+          key={slidesFront[index].title}
           className="slide-front"
-          initial={{ x: "-100%" }} 
-          animate={{ x: 0 }}      
-          exit={{ x: "100%" }}  
+          initial={{ x: "-100%" }}
+          animate={{ x: 0 }}
+          exit={{ x: "100%" }}
           transition={{
-            duration: 2,       
-            ease: "easeInOut", 
-            delay: 1,        
+            duration: 2,
+            ease: "easeInOut",
+            delay: 1,
           }}
         >
           <Image
@@ -95,13 +94,13 @@ export default function ImageSlider() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5, delay: 0.6 }}
           >
-           
+
           </motion.h2>
         </motion.div>
       </AnimatePresence>
 
       <div className="coming-soon">
-        <h2 className="coming-soon-title"  style={{ fontFamily: 'var(--font-playwrite)' }}>Coming Soon</h2>
+        <h2 className="coming-soon-title" style={{ fontFamily: 'var(--font-playwrite)' }}>Coming Soon</h2>
       </div>
     </div>
   );
