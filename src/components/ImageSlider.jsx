@@ -27,13 +27,13 @@ const slidesFront = [
 export default function ImageSlider() {
   const [index, setIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setIndex((prev) => (prev + 1) % slidesBack.length);
-  //   }, 4000);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((prev) => (prev + 1) % slidesBack.length);
+    }, 4000);
 
-  //   return () => clearInterval(timer);
-  // }, []);
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="slider-container">
