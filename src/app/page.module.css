@@ -74,7 +74,8 @@
 
 @media (max-width: 600px) {
   .page {
-    padding: 32px;
+    padding: 10px;
+    padding-right: 30px;
     padding-bottom: 80px;
   }
 

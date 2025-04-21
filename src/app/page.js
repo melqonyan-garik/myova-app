@@ -10,16 +10,16 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://www.facebook.com/myova.am?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/images/facebook-icon.png"
             alt="File icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
         </a>
         <a
@@ -29,23 +29,23 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="/window.svg"
+            src="/images/instagram-icon.png"
             alt="Window icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
         </a>
         <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://web.telegram.org/k/#7356054638"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
+            src="/images/telegram-icon.png"
             alt="Globe icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
           />
         </a>
       </footer>
