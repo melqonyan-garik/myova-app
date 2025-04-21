@@ -97,6 +97,11 @@
   @media (max-width: 600px) {
     .slide-back  {
       scale: 0.7;
+      flex-direction: column;
+      right: -10%;
+    }
+    .slide-back-title {
+      max-width: 500px;
     }
     .coming-soon {
       max-width: 100%;
