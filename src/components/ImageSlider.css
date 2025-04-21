@@ -96,9 +96,10 @@
   
   @media (max-width: 600px) {
     .slide-back  {
-      scale: 0.7;
+      scale: 0.9;
       flex-direction: column;
       right: -10%;
+      top: -110px;
     }
     .slide-back-title {
       max-width: 500px;
