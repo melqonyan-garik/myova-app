@@ -107,12 +107,12 @@
       right: 0;
       padding-right: 30px;
       display: flex;
-      align-items: flex-end;
+      /* align-items: flex-end; */
       justify-content: flex-end;
     }
   
     .coming-soon-title {
-      font-size: 3rem;
+      font-size: 3.3rem;
       color: #5f5c5c;
       font-weight: bold;
   
